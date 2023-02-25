@@ -1,0 +1,79 @@
+.about .row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.about .row .image img {
+  width: 100%;
+  height: 30rem;
+}
+.about .row .image {
+  flex: 1 1 30rem;
+}
+.about .row .content h3 {
+  font-size: 2rem;
+  color: var(--black);
+}
+.about .row .content p {
+  line-height: 1.3;
+  font-size: 1.3rem;
+  color: var(--black);
+  padding: 1rem 0;
+}
+
+.box {
+  display: flex;
+  flex: 1 1 10rem;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  padding: 1rem;
+}
+.box i {
+  font-size: 3rem;
+}
+.box span {
+  color: var(--main-color);
+}
+.box h3 {
+  color: var(--black);
+}
+.rewiews .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+}
+.rewiews .box-container .box {
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background: var(--white);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.rewiews .box-container .box .user {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+.rewiews .box-container .box p {
+  line-height: 1.2;
+  width: 100%;
+}
+.rewiews .box-container .box .user h3 {
+  color: var(--black);
+  margin-left: 1rem;
+}
+.rewiews .box-container .box .user i {
+  color: var(--main-color);
+  font-size: 1.3rem;
+  margin-left: 1rem;
+}
+.rewiews .box-container .box .user img {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+

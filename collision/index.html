@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            border: 1px solid blue;
+            position: relative;
+        }
+
+        .collision {
+            width: 30%;
+            height: 30%;
+            border-radius: 100%;
+            border: 1px solid #000;
+            position: absolute;
+        }
+    </style>
+    <h1>collision</h1>
+    <div class="box">
+        <div class="collision">
+
+        </div>
+    </div>
+    <script>
+        let box = document.querySelector(".box")
+        let collision = document.querySelector(".collision")
+
+        box.addEventListener("click", (e) => {
+            collision.style.left = e.pageX - 0 + "px"
+            collision.style.top = e.pageY - 0 + "px"
+            if (box.clientHeight >= box.innerWidth + box.clientWidth) {
+                console.log("h1")
+            }
+        })
+
+
+    </script>
+</body>
+
+</html>

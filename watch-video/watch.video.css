@@ -1,0 +1,187 @@
+:root {
+  --body-color: #fff;
+  --text-color: rgb(24, 187, 252);
+  --hover-color: #ffc;
+  --transition: 0.3s ease-in-out;
+  --main-color: #8e44ad;
+  --red: #e74c3c;
+  --orage: #f39c12;
+  --black: #2c3e50;
+  --light-color: #888;
+  --light-bg: #eee;
+  --border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  --white: #fff;
+}
+.video-details {
+  width: 100%;
+  height: 85vh;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.video {
+  width: 100%;
+  height: 50vh;
+}
+.video-details h3 {
+  font-size: 1.5rem;
+  color: var(--black);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.info {
+  font-size: 1.1rem;
+  border-bottom: 1px solid var(--light-color);
+}
+.col-2 {
+  display: flex;
+  justify-content: space-between;
+}
+.col-2 .right-s,
+.left-s {
+  display: flex;
+}
+.info p {
+  margin: 10px;
+  color: var(--black);
+}
+.info p i {
+  color: var(--main-color);
+  margin-right: 10px;
+}
+
+.tutor {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tutor img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.tutor span {
+  color: var(--light-color);
+  user-select: none;
+  cursor: text;
+}
+.flex button {
+  width: 10rem;
+  padding: 1rem;
+  border: var(--border);
+  background-color: var(--light-color);
+  color: var(--black);
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  border-radius: 0.3rem;
+  background-color: var(--red);
+}
+.flex button i {
+  margin-right: 5px;
+  color: rgb(230, 120, 57);
+}
+.description {
+  width: 100%;
+  height: 30vh;
+  font-size: 18px;
+  color: var(--light-color);
+  margin-top: 30px;
+  border-top: 1px solid #888;
+}
+.description p {
+  font-size: 1rem;
+  line-height: 1.1rem;
+  margin-top: 30px;
+}
+
+.comment {
+  width: 100%;
+}
+.comment .container .block .input {
+  border-bottom: 1px solid rgb(180, 180, 180);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.comment .container .block .input input {
+  width: 90%;
+  padding: 1.3rem;
+  outline: none;
+  background: transparent;
+  border: #2c3e50;
+  font-size: 1.2rem;
+  color: var(--light-color);
+}
+.comment .container .block .input button {
+  width: 10%;
+  padding: 1.3rem;
+  color: var(--black);
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.comments {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.flex-item-c-block {
+  width: 100%;
+  text-align: left;
+  border-bottom: 1px solid rgb(194, 194, 194);
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-item-c-block img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin-right: 30px;
+}
+.flex-item-c-block .flex-item-comment {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.flex-item-c-block .flex-item-comment h3 {
+  color: var(--black);
+}
+.flex-item-c-block .flex-item-comment span {
+  color: #888;
+}
+.flex-item-c-block .flex-item-comment .your-comment {
+  width: 100%;
+  border-top: 1px solid #fff;
+  position: relative;
+}
+.flex-item-c-block .flex-item-comment .your-comment p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: var(--black);
+}
+.btn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.btn button {
+  width: 30px;
+  height: 30px;
+  color: var(--black);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+}
+.flex-item-c-block .flex-item-comment .your-comment:hover .btn button {
+  opacity: 1;
+}

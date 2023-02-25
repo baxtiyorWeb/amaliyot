@@ -1,0 +1,48 @@
+{
+  "name": [
+    {
+      "name": "Baxtiyor Qurbonnazarov",
+      "job": "student",
+      "email": "baxtiyorqurbonnazarov448@gmail.com",
+      "password": "12345678",
+      "age": "16",
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "name": "Baxtiyor",
+      "job": "student",
+      "email": "baxtiyorqurbonnazarov33@gmail.com",
+      "password": "12345678",
+      "age": "16",
+      "img": "",
+      "id": 3
+    },
+    {
+      "name": "Baxtiyor Qurbonnazarov",
+      "job": "student",
+      "email": "baxtiyorqurbonnazarov33@gmail.com",
+      "password": "12345678",
+      "age": "16",
+      "img": "blob:http://127.0.0.1:5500/226183b6-9e49-4c96-89a0-2fa42066ecb1",
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "name": "Baxtiyor Qurbonnazarov",
+      "job": "student",
+      "email": "baxtiyorqurbonnazarov38@gmail.com",
+      "password": "",
+      "age": "16",
+      "img": "blob:http://127.0.0.1:5500/f9a29b7b-8b00-4075-825a-7a6638371b6a",
+      "id": 6
+    },
+    {
+      "id": 7
+    }
+  ]
+}
